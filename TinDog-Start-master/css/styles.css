@@ -1,0 +1,162 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.image{
+  position: relative;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.feat {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feat-title {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  margin: 20px 20px 50px 0;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.carousel:hover{
+  pause: true;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.col-md-4{
+  padding: 3% 2%;
+}
+
+.card-header{
+  font-family: "Ubuntu";
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 3%;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+
+}
+
+.insist{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+}
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: %5 15%;
+}
+
+.f-icon{
+  padding: 3% 1%;
+}

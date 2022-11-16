@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'CircularStd-Black';
+  src : url(Circular/CircularStd-Black.otf);
+}
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: url(Circular/CircularStd-Medium.otf);
+}
+@font-face {
+  font-family: 'CircularStd-Light';
+  src: url(Circular/CircularStd-Light.otf);
+}
+.body{
+  margin: 0;
+}
+.na{
+  text-align: center;
+  font-family: "CircularStd-Black";
+  padding: 27px 0 4px 0;
+}
+hr{
+  border-style: ridge;
+}
+.con{
+  width: 450px;
+  border:none;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+i{
+  padding-right: 5px;
+}
+.login-button,#sign-up{
+  border-radius: 500px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 0;
+  font-family: 'CircularStd-Medium';
+  margin: 5px 0;
+  border-style: solid;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border-width: 1px;
+}
+.facebook{
+  color: rgb(248, 248, 248);
+  background-color: #4267B2;
+  border-color: #4267B2;
+}
+.apple{
+  color: rgb(248, 248, 248);
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: rgba(0, 0, 0, 0.9);
+}
+.google,.phone,#sign-up{
+  background-color: white;
+  color: grey;
+  border-color: grey;
+}
+.fa-google{
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+span{
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.label{
+  padding: 10px 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.input{
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  padding: 14px;
+  border-style: solid;
+  border-color: #B2B2B2;
+  font-weight: 500;
+}
+.input:hover{
+  border-color: black;
+}
+.forgot{
+  padding-top: 12px;
+  font-family: 'CircularStd-Medium';
+  text-align: left;
+  font-size: 1rem;
+}
+.log{
+  padding: 10px;
+}
+.remember{
+  margin-bottom: 17px;
+  vertical-align: middle;
+}
+input [type='checkbox']{
+  box-sizing: border-box;
+  appearance: auto;
+}
+input [type='checkbox']::selection{
+  background-color: #1ed760;
+}
+#remember{
+  padding: 0 10px;
+  font-size: 0.9rem;
+  font-family: 'CircularStd-Medium';
+  font-weight: 100;
+  vertical-align: middle;
+}
+.login{
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+button.log{
+  border: none;
+  background-color: #1ed760;
+  font-family: 'CircularStd-Medium';
+  letter-spacing: 2.5px;
+  font-size: 0.8rem;
+  border-radius: 100px;
+  padding: 15px 15px;
+  width: 130px;
+}
+button.log:hover{
+  scale: 1.02;
+}
+.account{
+  font-family: 'CircularStd-Black';
+  font-size: 1.1rem;
+}
+button:hover,#sign-up:hover{
+  border-color: black;
+}

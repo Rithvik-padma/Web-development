@@ -1,0 +1,40 @@
+
+body{
+  margin: auto;
+  background-color: #393E46;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  text-align: center;
+  color: #4ECCA3;
+  text-shadow: 5px 0 #232931;
+  margin: 30px;
+}
+
+.players{
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+
+.player1,.player2{
+  display: inline-block;
+}
+
+img{
+  width: 80%;
+}
+
+footer{
+  color: #EEEEEE;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Indie Flower", cursive;
+}
+
+span{
+  border: none;
+}

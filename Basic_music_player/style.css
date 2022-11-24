@@ -1,0 +1,66 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    background-color: #e5e5e5;
+}
+
+.card-img {
+    margin: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-layout {
+    margin: auto;
+    margin-top: 20%;
+    padding: 20px;
+    border: 4px solid #8123ed;
+    background-color: #dcdddb;
+    border-radius: 10px;
+}
+
+.card-primary-title {
+    text-align: center;
+    color: black;
+}
+
+.card-secondary-title {
+    text-align: center;
+    color: #969495;
+    size: 12px;
+}
+
+.progress-container {
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 10px 0;
+    height: 8px;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #000000;
+    border-radius: 10px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.2s linear;
+  }
+
+.play-control-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .player-controls {
+      margin: 20px;
+      padding: auto;
+      width: 40px;
+      height: 40px;
+  }

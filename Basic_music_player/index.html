@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div id="songCardLayout" class="card-layout">
+    <h3 id="title" class="card-primary-title">Closer</h3>
+    <p id="artist" class="card-secondary-title">Halsey, The ChainSmokers</p>
+    <img id="songImage" src="https://i1.sndcdn.com/artworks-000179073287-3ur3or-t500x500.jpg" class="card-img" />
+    <div class="progress-container" id="progress-container">
+      <div class="progress" id="progress"></div>
+    </div>
+    <audio id="audio"></audio>
+    <div class="play-control-layout">
+      <img class="player-controls" id="shuffle" type="button" src="./images/shuffle.png" />
+
+      <img class="player-controls" id="previous" type="button" src="./images/previous.png" />
+
+      <img class="player-controls" id="play" type="button" src="./images/play.png" name="play" />
+
+      <img class="player-controls" id="next" type="button" src="./images/next.png" />
+
+      <img class="player-controls" id="repeat" type="button" src="./images/repeat.png" name="off" />
+    </div>
+
+  </div>
+  <script src="music-player.js"></script>
+</body>
+
+</html>

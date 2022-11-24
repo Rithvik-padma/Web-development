@@ -1,0 +1,142 @@
+body{
+  background-color: #6BD7DB;
+  margin: 0;
+  color: #FDFBF9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.musicplayer{
+  display: flex;
+  flex-direction: column;
+  background-color: #57D6F4;
+  width: 450px;
+  height: auto;
+  margin: 75px auto;
+  text-align: center;
+  border: 2px solid grey;
+  border-style: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px #B6B1EB;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+img{
+  width: 350px;
+  height: 250px;
+  margin: 35px 0 20px 0;
+  border: 2px solid grey;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px #B6B1EB;
+}
+
+.progress-bar{
+  width: 90%;
+  height: 6px;
+  background-color: #FDFBF9;
+  border-radius: 50px;
+  margin: 0 auto;
+
+}
+
+.progress-bar .progress-current{
+  width: 0%;
+  height: 6px;
+  border-radius: inherit;
+  background:linear-gradient(90deg, #69C3DB 0%, #9686D8 100%);
+  position: relative;
+}
+
+.progress-bar:hover .progress-current::after{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #C05BDB;
+  }
+
+.timer{
+  margin: 10px 6px;
+}
+
+.navigation{
+  margin: 42px 15px 20px;
+}
+
+.timer,.navigation,.header,li,.header .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+  margin: 7px;
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: #F1EEE9;
+  box-shadow: 0 0 5px 5px #B6B1EB;
+}
+
+i{
+  margin: auto;
+  color: #C954DB;
+}
+
+.pressed{
+  opacity: 0.5;
+}
+
+li{
+  text-align: left;
+}
+
+.music-list{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -250px;
+  background-color: #27B3DA;
+  border-radius: 12px;
+  box-shadow: 0px -1px 5px #76C7DA;
+  transition: 0.5s;
+}
+
+.music-list .header span ,.music-list .header .row span{
+  margin: 5px;
+}
+
+.row p{
+  margin: 10px 0;
+}
+
+li{
+  padding-right: 15px;
+  padding-top: 10px;
+  border-bottom: 0.01px solid darkgrey;
+
+}
+
+.playing{
+  opacity: 0.4;
+}
+.playing .audio-duration span{
+  color: yellow;
+}
+ul li:last-child{
+  border: none;
+  margin-left: 0;
+}
+
+ul{
+  max-height: 180px;
+  overflow-y: auto;
+  list-style: none;
+}
+ul::-webkit-scrollbar{
+  width: 0;
+}

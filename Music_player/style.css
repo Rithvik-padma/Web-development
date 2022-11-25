@@ -60,7 +60,9 @@ img{
   }
 
 .timer{
-  margin: 10px 6px;
+  width: 90%;
+  margin-top: 10px;
+  margin: 10px auto 0 ;
 }
 
 .navigation{

@@ -69,8 +69,7 @@ i.00{
 }
 
 button.pressed:not(.last){
-  background-color: #434242;
-
+  background-image: radial-gradient(circle at center, #434242 0% , black 100%);
 }
 
 button.pressed.last{

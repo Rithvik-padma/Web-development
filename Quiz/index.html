@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Nerko+One&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>QUIZ</h1>
+  <div class="quiz">
+    <form class="qtemplate">
+      <p id="question">Question</p>
+      <ul style="list-style: none">
+        <li>
+          <input type="radio" name="option" class="answer" value="option 1" id="a">
+          <label for="a" id="av">Option 1</label>
+        </li>
+        <li>
+          <input type="radio" name="option" class="answer" value="option 2" id="b">
+          <label for="b" id="bv">Option 2</label>
+        </li>
+        <li>
+          <input type="radio" name="option" class="answer" value="option 3" id="c">
+          <label for="c" id="cv">Option 3</label>
+        </li>
+        <li>
+          <input type="radio" name="option" class="answer" value="option 4" id="d">
+          <label for="d" id="dv">Option 4</label>
+        </li>
+      </ul>
+      <button type="button" id="submit" name="button">Submit</button>
+    </form>
+  </div>
+</body>
+<script src="quiz.js" charset="utf-8"></script>
+
+</html>
